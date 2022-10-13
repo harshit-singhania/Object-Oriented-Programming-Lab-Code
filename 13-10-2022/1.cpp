@@ -14,6 +14,10 @@ public:
     {
         cout << "Inside first base class" << endl;
     }
+
+    ~Parent1() {
+        cout << "Destructor called" << endl;
+    }
 };
 
 // second base class
@@ -25,6 +29,10 @@ public:
     {
         cout << "Inside second base class" << endl;
     }
+
+    ~Parent2() {
+        cout << "Destructor called" << endl;
+    }
 };
 
 // child class inherits Parent1 and Parent2
@@ -35,6 +43,10 @@ public:
     Child()
     {
         cout << "Inside child class" << endl;
+    }
+
+    ~Child() {
+        cout << "Destructor called" << endl;
     }
 };
 

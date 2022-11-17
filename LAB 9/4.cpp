@@ -1,4 +1,4 @@
-// WAP to demonstrate use of pure virtual function and abstract base class.
+// WAP to demonstrate use of pure virtual function and abstract base class. 
 
 #include <iostream>
 using namespace std;
